@@ -1,0 +1,23 @@
+{
+    "name": "pixi_samples",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "parcel src/index.html",
+        "build": "parcel build src/index.html"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "parcel": "^2.4.0",
+        "querystring-es3": "^0.2.1"
+    },
+    "dependencies": {
+        "@pixi/filter-crt": "^4.1.6",
+        "pixi-filters": "^4.1.6",
+        "pixi.js": "^6.3.0"
+    }
+}
